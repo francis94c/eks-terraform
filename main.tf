@@ -28,6 +28,7 @@ module "iam" {
 module "network" {
   source = "../../modules/network"
   eks_cluster_name = var.eks_cluster_name
+  region           = var.region
 }
 
 module "compute" {
