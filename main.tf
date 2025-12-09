@@ -20,3 +20,16 @@ terraform {
     encrypt        = true
   }
 }
+
+module "iam" {
+  source = "../../modules/iam"
+}
+
+module "network" {
+  source = "../../modules/network"
+  eks_cluster_name = var.eks_cluster_name
+}
+
+module "compute" {
+  source = "../../modules/compute"
+}
