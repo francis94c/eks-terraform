@@ -13,20 +13,6 @@ data "aws_eks_cluster_auth" "cluster" {
 }
 
 #===============================================================================
-# Data Sources
-#===============================================================================
-
-data "aws_eks_cluster" "eks_cluster" {
-  name       = var.eks_cluster_name
-  depends_on = [aws_eks_cluster.eks_cluster]
-}
-
-data "aws_eks_cluster_auth" "cluster" {
-  name       = var.eks_cluster_name
-  depends_on = [aws_eks_cluster.eks_cluster]
-}
-
-#===============================================================================
 # EKS Cluster Auth
 #===============================================================================
 

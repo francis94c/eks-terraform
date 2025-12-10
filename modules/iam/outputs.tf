@@ -3,12 +3,12 @@ output "github_actions_role_arn" {
   value       = aws_iam_role.github_actions_role.arn
 }
 
-output "rhino_eks_cluster_role_arn" {
-  value = aws_iam_role.rhino_eks_cluster_role.arn
+output "eks_cluster_role_arn" {
+  value = aws_iam_role.eks_cluster_role.arn
 }
 
-output "rhino_eks_node_group_role_arn" {
-  value = aws_iam_role.rhino_eks_node_group_role.arn
+output "eks_node_group_role_arn" {
+  value = aws_iam_role.eks_node_group_role.arn
 }
 
 output "aws_load_balancer_controller_role_arn" {

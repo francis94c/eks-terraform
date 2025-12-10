@@ -1,1 +1,1 @@
-{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"compute","Source":"../../modules/compute","Dir":""},{"Key":"iam","Source":"../../modules/iam","Dir":""},{"Key":"network","Source":"../../modules/network","Dir":""}]}
+{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"compute","Source":"./modules/compute","Dir":"modules/compute"},{"Key":"compute.eks","Source":"./eks","Dir":"modules/compute/eks"},{"Key":"iam","Source":"./modules/iam","Dir":"modules/iam"},{"Key":"network","Source":"./modules/network","Dir":"modules/network"}]}

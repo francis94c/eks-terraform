@@ -31,7 +31,7 @@ module "network" {
   source           = "./modules/network"
   eks_cluster_name = var.eks_cluster_name
   region           = var.region
-  vpc_cidr        = var.vpc_cidr
+  vpc_cidr         = var.vpc_cidr
 
 }
 
