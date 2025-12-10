@@ -1,6 +1,11 @@
 {
     "cSpell.words": [
+        "Coip",
+        "EKSVPC",
+        "elbv",
         "hostnames",
-        "karpenter"
+        "karpenter",
+        "serviceaccount",
+        "targetgroup"
     ]
 }

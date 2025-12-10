@@ -27,3 +27,8 @@ variable "eks_cluster_name" {
   type    = string
   default = "eks-cluster"
 }
+
+variable "github_repos" {
+  type = list(string)
+  default = [ "org/repo" ]
+}
